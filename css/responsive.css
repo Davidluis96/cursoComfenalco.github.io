@@ -1,0 +1,122 @@
+@media(max-width: 768px){
+    body{
+        font-size: 15px;
+    }
+    header .container nav{
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 15px;
+        padding-left: 15px;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.4s ease;
+        transform: translateX(100%);
+    }
+    header .container nav.open{
+        transform: translateX(0);
+    }
+    header .container nav a{
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    header .container nav a{
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    header .container .hamb{
+        display: block;
+        font-size: 40px;
+        color: red;
+        position: relative;
+        right: 10px;
+    }
+    form .boton.boton-negro{
+        width: 100%;
+    }
+    footer{
+        text-align: center;
+    }
+    footer .logo-footer{
+        width: 50%;
+        padding-top: 40px;
+    }
+    footer .redes{
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+    }
+    .columna-mobile-100{
+        width: 100%;
+    }
+    .columna-mobile-50{
+        width: 50%;
+    }
+    .columna-25 {
+        padding: 5px;   
+    }
+    .empujar-mobil-0 {
+        margin-left: 0;
+    }
+    .sinpadding-mobile{
+        padding: 0;
+    }
+    #inicio{
+        height: 100vh;
+    }
+    #inicio .bloque-inicio{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        width: 100%;
+        text-align: center;
+        margin-left: -200px;
+        text-shadow: 0 0 2px rgb(62, 1, 1);
+    
+    }
+    #inicio .bloque-inicio h1 {
+        color: #FFFFFF;
+        font-size: 32px;
+        font-style: bold;
+    }
+    #inicio .bloque-inicio p{
+        color: #FFFFFF;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 14px;
+        text-shadow: 0 0 2px rgb(62, 1, 1);
+    }
+    #inicio img{
+        height: 100%;
+        position: relative;
+        object-fit: cover;
+        object-position: center;
+    }
+    #servicios .bloque-servicio{
+       
+        margin-bottom: 15px;
+    }
+
+    #contactenos{
+        padding: 0; 
+        border: none;
+        
+    }
+    #contactenos embed{
+        position: relative;
+        height: 50vh;
+    }
+    .h3{
+        display: none;
+    }
+    .boton-up{
+        background-color: transparent;
+        opacity: 0.7;
+
+    }
+}
