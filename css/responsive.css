@@ -93,6 +93,7 @@
         display: none;
     }
     .boton-up{
+        border-radius: 0;
         opacity: 0.7;
     }
     
