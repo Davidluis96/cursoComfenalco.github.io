@@ -72,12 +72,24 @@
     #inicio .bloque-inicio{
         position: absolute;
         top: 40%;
-        left: 53%;
-        width: 375px;
+        left: 50%;
+        width: 100%;
         text-align: center;
         margin-left: -200px;
         text-shadow: 0 0 2px rgb(62, 1, 1);
     
+    }
+    #inicio .bloque-inicio h1 {
+        color: #FFFFFF;
+        font-size: 32px;
+        font-style: bold;
+    }
+    #inicio .bloque-inicio p{
+        color: #FFFFFF;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 14px;
+        text-shadow: 0 0 2px rgb(62, 1, 1);
     }
     #inicio img{
         height: 100%;
